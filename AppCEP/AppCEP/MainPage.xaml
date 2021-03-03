@@ -4,7 +4,7 @@
              x:Class="AppCEP.MainPage">
 
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
-        <Image x:Name="ImgLogo" />
+        <Image x:Name="imgLogo" />
         <Entry Placeholder="Digite apenas os número do CEP" PlaceholderColor="#FFBF00" BackgroundColor="White" x:Name="txtCEP" />
         <Button Text="Buscar CEP" TextColor="White" BackgroundColor="#00416B" x:Name="btnBuscar" Clicked="btnBuscar_Clicked" />
 

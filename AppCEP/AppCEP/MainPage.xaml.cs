@@ -16,7 +16,7 @@ namespace AppCEP
         public MainPage()
         {
             InitializeComponent();
-            ImgLogo.Source = ImageSource.FromResource("AppCEP.img.Logo.png");
+            imgLogo.Source = ImageSource.FromResource("AppCEP.img.Logo.png");
         }
 
         private void btnBuscar_Clicked(object sender, EventArgs e)

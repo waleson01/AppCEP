@@ -22,7 +22,7 @@ namespace AppCEP.servico
             string Conteudo = wc.DownloadString(NovoEnderecoURL);
 
             //objeto do tipo Classe enderço que recebe os dados des-serializados
-            Endereco end = JsonConvert.DeserializeObejto<Endereco>(Conteudo);
+            Endereco end = JsonConvert.DeserializeObject<Endereco>(Conteudo);
 
             //Caso não haja retorno do serviço Web
             if (end.cep == null) return null;
